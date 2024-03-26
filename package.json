@@ -1,5 +1,5 @@
 {
-  "name": "repro-vercel-og-memory-leak",
+  "name": "repro-resvg-wasm-memory-leak",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -11,13 +11,11 @@
   "author": "mizdra <pp.mizdra@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@vercel/og": "^0.6.2",
-    "react": "^18.2.0",
+    "@resvg/resvg-wasm": "^2.6.1",
     "tsx": "^4.7.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.26",
-    "@types/react": "^18.2.65",
     "typescript": "^5.4.2"
   }
 }
